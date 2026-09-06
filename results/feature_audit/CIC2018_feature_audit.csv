@@ -1,0 +1,87 @@
+Feature,Category,Decision,Reason,SIH_Level
+Timestamp,Temporal metadata,KEEP_FOR_ORDERING,Required to preserve temporal sequence and create time windows.,Temporal
+Label,Target,TARGET_ONLY,Represents the observed traffic/attack label. Must never be included in S_t.,Target
+Tot Fwd Pkts,Traffic volume,KEEP,Captures traffic intensity and communication volume.,Flow-level
+Tot Bwd Pkts,Traffic volume,KEEP,Captures traffic intensity and communication volume.,Flow-level
+TotLen Fwd Pkts,Traffic volume,KEEP,Captures traffic intensity and communication volume.,Flow-level
+TotLen Bwd Pkts,Traffic volume,KEEP,Captures traffic intensity and communication volume.,Flow-level
+Flow Byts/s,Traffic volume,KEEP,Captures traffic intensity and communication volume.,Flow-level
+Flow Pkts/s,Traffic volume,KEEP,Captures traffic intensity and communication volume.,Flow-level
+Flow Duration,Timing,KEEP,Temporal behaviour is important for forecasting evolving network states.,Flow-level
+Flow IAT Mean,Timing,KEEP,Temporal behaviour is important for forecasting evolving network states.,Flow-level
+Flow IAT Std,Timing,KEEP,Temporal behaviour is important for forecasting evolving network states.,Flow-level
+Flow IAT Max,Timing,KEEP,Temporal behaviour is important for forecasting evolving network states.,Flow-level
+Flow IAT Min,Timing,KEEP,Temporal behaviour is important for forecasting evolving network states.,Flow-level
+Fwd IAT Tot,Timing,KEEP,Temporal behaviour is important for forecasting evolving network states.,Flow-level
+Fwd IAT Mean,Timing,KEEP,Temporal behaviour is important for forecasting evolving network states.,Flow-level
+Fwd IAT Std,Timing,KEEP,Temporal behaviour is important for forecasting evolving network states.,Flow-level
+Fwd IAT Max,Timing,KEEP,Temporal behaviour is important for forecasting evolving network states.,Flow-level
+Fwd IAT Min,Timing,KEEP,Temporal behaviour is important for forecasting evolving network states.,Flow-level
+Bwd IAT Tot,Timing,KEEP,Temporal behaviour is important for forecasting evolving network states.,Flow-level
+Bwd IAT Mean,Timing,KEEP,Temporal behaviour is important for forecasting evolving network states.,Flow-level
+Bwd IAT Std,Timing,KEEP,Temporal behaviour is important for forecasting evolving network states.,Flow-level
+Bwd IAT Max,Timing,KEEP,Temporal behaviour is important for forecasting evolving network states.,Flow-level
+Bwd IAT Min,Timing,KEEP,Temporal behaviour is important for forecasting evolving network states.,Flow-level
+Fwd Pkt Len Max,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Fwd Pkt Len Min,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Fwd Pkt Len Mean,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Fwd Pkt Len Std,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Bwd Pkt Len Max,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Bwd Pkt Len Min,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Bwd Pkt Len Mean,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Bwd Pkt Len Std,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Pkt Len Min,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Pkt Len Max,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Pkt Len Mean,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Pkt Len Std,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Pkt Len Var,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Pkt Size Avg,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Fwd Seg Size Avg,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Bwd Seg Size Avg,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Fwd Seg Size Min,Packet behaviour,KEEP,Captures changes in packet-size behaviour.,Flow-level
+Fwd PSH Flags,TCP flags,KEEP,TCP flag behaviour can reveal changes in connection and attack patterns.,Flow-level
+Bwd PSH Flags,TCP flags,KEEP,TCP flag behaviour can reveal changes in connection and attack patterns.,Flow-level
+Fwd URG Flags,TCP flags,KEEP,TCP flag behaviour can reveal changes in connection and attack patterns.,Flow-level
+Bwd URG Flags,TCP flags,KEEP,TCP flag behaviour can reveal changes in connection and attack patterns.,Flow-level
+FIN Flag Cnt,TCP flags,KEEP,TCP flag behaviour can reveal changes in connection and attack patterns.,Flow-level
+SYN Flag Cnt,TCP flags,KEEP,TCP flag behaviour can reveal changes in connection and attack patterns.,Flow-level
+RST Flag Cnt,TCP flags,KEEP,TCP flag behaviour can reveal changes in connection and attack patterns.,Flow-level
+PSH Flag Cnt,TCP flags,KEEP,TCP flag behaviour can reveal changes in connection and attack patterns.,Flow-level
+ACK Flag Cnt,TCP flags,KEEP,TCP flag behaviour can reveal changes in connection and attack patterns.,Flow-level
+URG Flag Cnt,TCP flags,KEEP,TCP flag behaviour can reveal changes in connection and attack patterns.,Flow-level
+CWE Flag Count,TCP flags,KEEP,TCP flag behaviour can reveal changes in connection and attack patterns.,Flow-level
+ECE Flag Cnt,TCP flags,KEEP,TCP flag behaviour can reveal changes in connection and attack patterns.,Flow-level
+Dst Port,Communication,KEEP,Useful for characterising protocol and communication behaviour.,Flow-level
+Protocol,Communication,KEEP,Useful for characterising protocol and communication behaviour.,Flow-level
+Down/Up Ratio,Communication,KEEP,Useful for characterising protocol and communication behaviour.,Flow-level
+Init Fwd Win Byts,TCP window,KEEP_WITH_CAVEAT,"Useful flow-level indicators, but do not claim they fully satisfy packet-level TCP window-size requirements.",Flow-level
+Init Bwd Win Byts,TCP window,KEEP_WITH_CAVEAT,"Useful flow-level indicators, but do not claim they fully satisfy packet-level TCP window-size requirements.",Flow-level
+Active Mean,Activity pattern,KEEP,Can capture bursty and periodic traffic behaviour.,Flow-level
+Active Std,Activity pattern,KEEP,Can capture bursty and periodic traffic behaviour.,Flow-level
+Active Max,Activity pattern,KEEP,Can capture bursty and periodic traffic behaviour.,Flow-level
+Active Min,Activity pattern,KEEP,Can capture bursty and periodic traffic behaviour.,Flow-level
+Idle Mean,Activity pattern,KEEP,Can capture bursty and periodic traffic behaviour.,Flow-level
+Idle Std,Activity pattern,KEEP,Can capture bursty and periodic traffic behaviour.,Flow-level
+Idle Max,Activity pattern,KEEP,Can capture bursty and periodic traffic behaviour.,Flow-level
+Idle Min,Activity pattern,KEEP,Can capture bursty and periodic traffic behaviour.,Flow-level
+Fwd Byts/b Avg,Flow-derived,KEEP_FOR_INITIAL_PROTOTYPE,"Potentially useful, but should be tested for redundancy and predictive value.",Flow-level
+Fwd Pkts/b Avg,Flow-derived,KEEP_FOR_INITIAL_PROTOTYPE,"Potentially useful, but should be tested for redundancy and predictive value.",Flow-level
+Fwd Blk Rate Avg,Flow-derived,KEEP_FOR_INITIAL_PROTOTYPE,"Potentially useful, but should be tested for redundancy and predictive value.",Flow-level
+Bwd Byts/b Avg,Flow-derived,KEEP_FOR_INITIAL_PROTOTYPE,"Potentially useful, but should be tested for redundancy and predictive value.",Flow-level
+Bwd Pkts/b Avg,Flow-derived,KEEP_FOR_INITIAL_PROTOTYPE,"Potentially useful, but should be tested for redundancy and predictive value.",Flow-level
+Bwd Blk Rate Avg,Flow-derived,KEEP_FOR_INITIAL_PROTOTYPE,"Potentially useful, but should be tested for redundancy and predictive value.",Flow-level
+Subflow Fwd Pkts,Flow-derived,KEEP_FOR_INITIAL_PROTOTYPE,"Potentially useful, but should be tested for redundancy and predictive value.",Flow-level
+Subflow Fwd Byts,Flow-derived,KEEP_FOR_INITIAL_PROTOTYPE,"Potentially useful, but should be tested for redundancy and predictive value.",Flow-level
+Subflow Bwd Pkts,Flow-derived,KEEP_FOR_INITIAL_PROTOTYPE,"Potentially useful, but should be tested for redundancy and predictive value.",Flow-level
+Subflow Bwd Byts,Flow-derived,KEEP_FOR_INITIAL_PROTOTYPE,"Potentially useful, but should be tested for redundancy and predictive value.",Flow-level
+Fwd Header Len,Flow-derived,KEEP_FOR_INITIAL_PROTOTYPE,"Potentially useful, but should be tested for redundancy and predictive value.",Flow-level
+Bwd Header Len,Flow-derived,KEEP_FOR_INITIAL_PROTOTYPE,"Potentially useful, but should be tested for redundancy and predictive value.",Flow-level
+Fwd Pkts/s,Flow-derived,KEEP_FOR_INITIAL_PROTOTYPE,"Potentially useful, but should be tested for redundancy and predictive value.",Flow-level
+Bwd Pkts/s,Flow-derived,KEEP_FOR_INITIAL_PROTOTYPE,"Potentially useful, but should be tested for redundancy and predictive value.",Flow-level
+Fwd Act Data Pkts,Flow-derived,KEEP_FOR_INITIAL_PROTOTYPE,"Potentially useful, but should be tested for redundancy and predictive value.",Flow-level
+TTL,Packet-level SIH requirement,REQUIRES_PCAP,Packet-level TTL and session TTL variance are not present.,Packet-level
+TCP Window Size,Packet-level SIH requirement,REQUIRES_PCAP,Full packet-level TCP window information is not present; initial window bytes are only partial.,Packet-level
+IP Fragment Flags,Packet-level SIH requirement,REQUIRES_PCAP,Explicit packet-level fragmentation information is not present.,Packet-level
+Payload Size Distribution,Packet-level SIH requirement,REQUIRES_PCAP,Raw packet payload-size distribution is not available directly.,Packet-level
+Retransmission Count,Packet-level SIH requirement,REQUIRES_PCAP,Explicit packet-level retransmission information is not available.,Packet-level
+Port Scan Signatures,Packet-level SIH requirement,REQUIRES_PCAP,Not directly available as a packet-level feature; may need derived behavioural features.,Packet-level

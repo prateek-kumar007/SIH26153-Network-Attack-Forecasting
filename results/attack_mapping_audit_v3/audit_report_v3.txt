@@ -1,0 +1,14 @@
+SIH26153 ATTACK MAPPING AUDIT V3
+Forecast samples: 9,283
+Mapping rows: 9,777
+Matched: 9,283
+Unmatched: 0
+Match rate: 100.000000%
+Target/mapping mismatches: 0
+Valid attack onsets: 210
+
+TEST types unseen in TRAIN + VALIDATION:
+  - Bot
+
+TEST families unseen in TRAIN + VALIDATION:
+  - Bot

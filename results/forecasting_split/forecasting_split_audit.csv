@@ -1,0 +1,11 @@
+Source_File,Samples,Attack_Targets,Benign_Targets,Segments_Used,Split
+Friday-02-03-2018_TrafficForML_CICFlowMeter_30s_state.csv,1028,674,354,2,TEST
+Friday-16-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,84,84,0,1,TRAIN
+Friday-23-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,1092,191,901,2,TRAIN
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,1430,151,1279,1,TRAIN
+Thursday-01-03-2018_TrafficForML_CICFlowMeter_30s_state.csv,1119,310,809,2,TEST
+Thursday-15-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,1124,118,1006,2,TRAIN
+Thursday-22-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,1077,129,948,2,TRAIN
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,1066,380,686,2,TRAIN
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,145,97,48,6,TRAIN
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,1118,266,852,2,VALIDATION

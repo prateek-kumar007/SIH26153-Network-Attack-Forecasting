@@ -1,0 +1,12 @@
+Split,Mapped_Attack_Type,Onsets
+TEST,Infilteration,2
+TEST,Bot,1
+TRAIN,Brute Force -XSS,96
+TRAIN,Brute Force -Web,84
+TRAIN,DDoS attacks-LOIC-HTTP,9
+TRAIN,SQL Injection,9
+TRAIN,DoS attacks-GoldenEye,4
+TRAIN,DoS attacks-Slowloris,1
+TRAIN,FTP-BruteForce,1
+TRAIN,SSH-Bruteforce,1
+VALIDATION,Infilteration,2

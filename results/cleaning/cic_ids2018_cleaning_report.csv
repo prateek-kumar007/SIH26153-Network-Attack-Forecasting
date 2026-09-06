@@ -1,0 +1,11 @@
+file,total_rows,repeated_headers_removed,invalid_timestamps_removed,total_rows_removed,valid_rows,first_timestamp,last_timestamp
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,1048575,0,0,0,1048575,2018-03-02 01:00:00,2018-03-02 12:59:59
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,1048575,1,0,1,1048574,2018-02-16 01:00:32,2018-02-16 12:58:24
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,1048575,0,0,0,1048575,2018-02-23 01:00:00,2018-02-23 12:59:59
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,7948748,0,0,0,7948748,2018-02-20 01:00:00,2018-02-20 12:59:59
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,331125,25,0,25,331100,2018-03-01 01:00:00,2018-03-01 12:59:59
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,1048575,0,0,0,1048575,2018-02-15 01:00:00,2018-02-15 12:59:59
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,1048575,0,9,9,1048566,2018-02-22 01:00:00,2018-02-22 12:59:59
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,1048575,0,5,5,1048570,2018-02-14 01:00:00,2018-02-14 12:59:59
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,1048575,0,0,0,1048575,2018-02-21 01:55:46,2018-02-21 10:43:21
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,613104,33,0,33,613071,2018-02-28 01:00:00,2018-02-28 12:59:59

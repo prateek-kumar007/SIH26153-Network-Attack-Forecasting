@@ -1,0 +1,47 @@
+Feature_A,Feature_B,Correlation
+Flow Duration,Fwd IAT Tot,0.996738862127789
+Tot Fwd Pkts,TotLen Fwd Pkts,0.9866173566340365
+Tot Fwd Pkts,Fwd Header Len,0.9999737319716848
+Tot Fwd Pkts,Subflow Fwd Pkts,1.0
+Tot Fwd Pkts,Subflow Fwd Byts,0.9866173566340365
+Tot Fwd Pkts,Fwd Act Data Pkts,0.9999913042155769
+Tot Bwd Pkts,TotLen Bwd Pkts,0.9829020722869323
+Tot Bwd Pkts,Bwd Header Len,0.9995814386760519
+Tot Bwd Pkts,Subflow Bwd Pkts,1.0
+Tot Bwd Pkts,Subflow Bwd Byts,0.9829020722869323
+TotLen Fwd Pkts,Fwd Header Len,0.9866572348295928
+TotLen Fwd Pkts,Subflow Fwd Pkts,0.9866173566340365
+TotLen Fwd Pkts,Subflow Fwd Byts,1.0
+TotLen Fwd Pkts,Fwd Act Data Pkts,0.9866196435342995
+TotLen Bwd Pkts,Bwd Header Len,0.9798065112763737
+TotLen Bwd Pkts,Subflow Bwd Pkts,0.9829020722869323
+TotLen Bwd Pkts,Subflow Bwd Byts,1.0
+Fwd Pkt Len Min,Pkt Len Min,0.9733713900328158
+Fwd Pkt Len Mean,Fwd Seg Size Avg,1.0
+Bwd Pkt Len Max,Bwd Pkt Len Std,0.9735381873555862
+Bwd Pkt Len Mean,Bwd Seg Size Avg,1.0
+Bwd Pkt Len Std,Pkt Len Std,0.9502077025173488
+Flow Pkts/s,Fwd Pkts/s,0.9604437054331865
+Flow IAT Mean,Flow IAT Min,0.9732087321313108
+Flow IAT Mean,Fwd IAT Mean,0.955116913413798
+Flow IAT Max,Fwd IAT Max,0.9926497237243458
+Fwd IAT Mean,Fwd IAT Min,0.9891715391132196
+Bwd IAT Mean,Bwd IAT Min,0.9508534172218254
+Fwd PSH Flags,SYN Flag Cnt,1.0
+Fwd URG Flags,CWE Flag Count,1.0
+Fwd Header Len,Subflow Fwd Pkts,0.9999737319716848
+Fwd Header Len,Subflow Fwd Byts,0.9866572348295928
+Fwd Header Len,Fwd Act Data Pkts,0.9999366923493851
+Bwd Header Len,Subflow Bwd Pkts,0.9995814386760516
+Bwd Header Len,Subflow Bwd Byts,0.9798065112763737
+Pkt Len Max,Pkt Len Std,0.9573933120821753
+Pkt Len Mean,Pkt Size Avg,0.993815630648662
+RST Flag Cnt,ECE Flag Cnt,1.0
+Subflow Fwd Pkts,Subflow Fwd Byts,0.9866173566340365
+Subflow Fwd Pkts,Fwd Act Data Pkts,0.9999913042155769
+Subflow Fwd Byts,Fwd Act Data Pkts,0.9866196435342995
+Subflow Bwd Pkts,Subflow Bwd Byts,0.9829020722869323
+Active Mean,Active Max,0.9528713568239808
+Idle Mean,Idle Max,0.9854015093198885
+Idle Mean,Idle Min,0.992677762222291
+Idle Max,Idle Min,0.9583902087510177

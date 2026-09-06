@@ -1,0 +1,3 @@
+Attack_Type,In_Train,In_Validation,Unseen_in_Train,Unseen_in_Train_Validation
+Bot,False,False,True,True
+Infilteration,False,True,True,False

@@ -1,0 +1,63 @@
+SIH26153 FORECASTING TARGET AUDIT V2
+======================================================================
+
+Forecasting samples: 9,283
+Attack samples: 2,400
+Benign samples: 6,883
+
+SPLIT COUNTS
+----------------------------------------------------------------------
+            Samples  Attack  Benign  Attack_Rate
+Split                                           
+TEST           2147     984    1163     0.458314
+TRAIN          6018    1150    4868     0.191093
+VALIDATION     1118     266     852     0.237925
+
+ATTACK EPISODES
+----------------------------------------------------------------------
+Total episodes: 214
+Mean duration: 336.45 sec
+Median duration: 30.00 sec
+Minimum duration: 30.00 sec
+Maximum duration: 10200.00 sec
+
+
+ATTACK ONSETS
+----------------------------------------------------------------------
+Total valid onsets: 210
+
+Onsets by split:
+Split
+TRAIN         205
+TEST            3
+VALIDATION      2
+
+Onsets by attack type:
+Attack_Type
+Brute Force -XSS          96
+Brute Force -Web          84
+SQL Injection              9
+DDoS attacks-LOIC-HTTP     9
+Infilteration              4
+DoS attacks-GoldenEye      4
+Bot                        1
+DoS attacks-Slowloris      1
+SSH-Bruteforce             1
+FTP-BruteForce             1
+
+PERSISTENCE
+----------------------------------------------------------------------
+     Split  Valid_Transitions  0_to_0  0_to_1  1_to_0  1_to_1  Attack_Persistence
+     TRAIN               6002    4650     205     205     942            0.821273
+VALIDATION               1116     848       2       2     264            0.992481
+      TEST               2143    1157       3       3     980            0.996948
+
+SCIENTIFIC INTERPRETATION
+----------------------------------------------------------------------
+The current binary target represents attack presence in a future 30-second window. Because attack episodes can persist across consecutive windows, a persistence baseline can achieve high F1 without demonstrating true pre-attack forecasting ability.
+
+Therefore, high persistence-baseline F1 must not be reported as evidence of successful AI forecasting.
+
+Exact attack onset events should be evaluated separately from general future attack presence. A future attack presence label at +60, +90, +120 or +150 seconds is not automatically an independent attack onset.
+
+Attack-type and attack-family novelty must also be interpreted carefully. The family mapping used by this audit is heuristic and is not an official MITRE taxonomy.

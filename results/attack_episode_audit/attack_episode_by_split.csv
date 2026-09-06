@@ -1,0 +1,4 @@
+Split,Episodes,Mean_Duration_Seconds,Median_Duration_Seconds,Max_Duration_Seconds
+TEST,4,7380.0,7920.0,10200
+TRAIN,208,165.8653846153846,30.0,5880
+VALIDATION,2,3990.0,3990.0,4500

@@ -1,0 +1,8 @@
+Split,Attack_Family,Samples
+TEST,Bot,674
+TEST,Infiltration,310
+TRAIN,Brute Force,671
+TRAIN,DDoS,248
+TRAIN,DoS,202
+TRAIN,Web Attack,29
+VALIDATION,Infiltration,266

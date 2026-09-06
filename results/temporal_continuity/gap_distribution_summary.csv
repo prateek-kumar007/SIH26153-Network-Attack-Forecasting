@@ -1,0 +1,11 @@
+File,State_Windows,Gaps_GT_30s,Total_Missing_Windows,Gap_1_Window,Gap_2_5_Windows,Gap_6_20_Windows,Gap_21_100_Windows,Gap_Over_100_Windows,Mean_Gap_Seconds,Median_Gap_Seconds,Max_Gap_Seconds
+Friday-02-03-2018_TrafficForML_CICFlowMeter_30s_state.csv,1048,1,392,0,0,0,0,1,11790.0,11790.0,11790
+Friday-16-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,265,122,1171,26,95,0,0,1,317.95,120.0,23880
+Friday-23-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,1112,1,328,0,0,0,0,1,9870.0,9870.0,9870
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,1440,0,0,0,0,0,0,0,0.0,0.0,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter_30s_state.csv,1139,1,301,0,0,0,0,1,9060.0,9060.0,9060
+Thursday-15-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,1144,1,296,0,0,0,0,1,8910.0,8910.0,8910
+Thursday-22-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,1097,1,343,0,0,0,0,1,10320.0,10320.0,10320
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,1086,1,354,0,0,0,0,1,10650.0,10650.0,10650
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,308,28,748,24,3,0,0,1,831.43,60.0,21570
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,1138,1,302,0,0,0,0,1,9090.0,9090.0,9090

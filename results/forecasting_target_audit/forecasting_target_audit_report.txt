@@ -1,0 +1,24 @@
+SIH26153 - FORECASTING TARGET AUDIT
+============================================================
+Total samples: 9,283
+History: 10 x 30-second windows = 5 minutes
+Target: attack presence in next 30-second window
+
+SPLIT SUMMARY
+------------------------------------------------------------
+TEST: 2,147 samples | 984 attack | 1,163 benign | 45.83% attack
+TRAIN: 6,018 samples | 1,150 attack | 4,868 benign | 19.11% attack
+VALIDATION: 1,118 samples | 266 attack | 852 benign | 23.79% attack
+
+TRANSITIONS
+------------------------------------------------------------
+Benign -> Attack: 211
+Attack -> Attack: 2,186
+Attack -> Benign: 211
+Benign -> Benign: 6,665
+
+INTERPRETATION
+------------------------------------------------------------
+This audit does not train a model.
+It verifies whether the forecasting target has useful temporal structure.
+The final choice of history length and forecast horizon will be based on this audit and later validation experiments.

@@ -1,0 +1,74 @@
+cat > .gitignore <<'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Large datasets
+data/raw/
+data/interim/
+data/sorted/
+data/processed/
+
+# Network captures
+*.pcap
+*.pcapng
+*.cap
+
+# Archives
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Large ML model files
+*.h5
+*.keras
+*.ckpt
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+*.pt
+*.pth
+
+# TensorFlow
+checkpoint/
+checkpoints/
+logs/
+
+# Temporary
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# data/sample/ is intentionally tracked
+EOF

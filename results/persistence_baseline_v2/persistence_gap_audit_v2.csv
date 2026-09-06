@@ -1,0 +1,11 @@
+Source_File,Split,First_Sample,Gap_Reset_Samples,Valid_Transitions
+Friday-02-03-2018_TrafficForML_CICFlowMeter_30s_state.csv,TEST,1,1,1026
+Friday-16-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,TRAIN,1,0,83
+Friday-23-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,TRAIN,1,1,1090
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,TRAIN,1,0,1429
+Thursday-01-03-2018_TrafficForML_CICFlowMeter_30s_state.csv,TEST,1,1,1117
+Thursday-15-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,TRAIN,1,1,1122
+Thursday-22-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,TRAIN,1,1,1075
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,TRAIN,1,1,1064
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,TRAIN,1,5,139
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter_30s_state.csv,VALIDATION,1,1,1116

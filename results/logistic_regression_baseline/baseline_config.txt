@@ -1,0 +1,31 @@
+SIH26153 Logistic Regression Baseline
+====================================
+
+Input file: D:\SIH26153\data\processed\forecasting_samples\all_forecasting_samples.csv
+Samples: 9283
+Current-state features: 24
+History used: NO
+Current state only: YES
+Random split: NO
+Chronological split: YES
+Imputer fitted on TRAIN only: YES
+Scaler fitted on TRAIN only: YES
+Threshold: 0.50
+Class weight: balanced
+Random state: 42
+
+TRAIN dates:
+  14-02-2018
+  15-02-2018
+  16-02-2018
+  20-02-2018
+  21-02-2018
+  22-02-2018
+  23-02-2018
+
+VALIDATION dates:
+  28-02-2018
+
+TEST dates:
+  01-03-2018
+  02-03-2018

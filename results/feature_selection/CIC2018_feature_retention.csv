@@ -1,0 +1,85 @@
+Feature,Status,NaN_%,Inf_%,Zero_%,Min,Max,Decision,Reason
+Bwd Blk Rate Avg,CONSTANT,0.0,0.0,100.0,0.0,0.0,REMOVE,Constant across dataset; contains no variance
+Bwd Byts/b Avg,CONSTANT,0.0,0.0,100.0,0.0,0.0,REMOVE,Constant across dataset; contains no variance
+Bwd PSH Flags,CONSTANT,0.0,0.0,100.0,0.0,0.0,REMOVE,Constant across dataset; contains no variance
+Bwd Pkts/b Avg,CONSTANT,0.0,0.0,100.0,0.0,0.0,REMOVE,Constant across dataset; contains no variance
+Bwd URG Flags,CONSTANT,0.0,0.0,100.0,0.0,0.0,REMOVE,Constant across dataset; contains no variance
+Fwd Blk Rate Avg,CONSTANT,0.0,0.0,100.0,0.0,0.0,REMOVE,Constant across dataset; contains no variance
+Fwd Byts/b Avg,CONSTANT,0.0,0.0,100.0,0.0,0.0,REMOVE,Constant across dataset; contains no variance
+Fwd Pkts/b Avg,CONSTANT,0.0,0.0,100.0,0.0,0.0,REMOVE,Constant across dataset; contains no variance
+Flow Byts/s,HAS_INFINITY,0.3679003339446627,0.2220116899420924,30.77688533843824,0.0,1806642857.14286,CANDIDATE,Candidate traffic-behaviour feature
+Flow Pkts/s,HAS_INFINITY,0.0,0.5899120238867551,0.0,0.016666673333336,6000000.0,CANDIDATE,Candidate traffic-behaviour feature
+CWE Flag Count,MOSTLY_ZERO,0.0,0.0,99.98361971520976,0.0,1.0,REMOVE,Extremely sparse; remove from initial model
+FIN Flag Cnt,MOSTLY_ZERO,0.0,0.0,99.52045622820133,0.0,1.0,REMOVE,Extremely sparse; remove from initial model
+Fwd URG Flags,MOSTLY_ZERO,0.0,0.0,99.98361971520976,0.0,1.0,REMOVE,Extremely sparse; remove from initial model
+Dst IP,NON_NUMERIC,100.0,0.0,0.0,,,REMOVE,Identifier/address field; not used as behavioural state feature
+Flow ID,NON_NUMERIC,100.0,0.0,0.0,,,REMOVE,Identifier/address field; not used as behavioural state feature
+Label,NON_NUMERIC,100.0,0.0,0.0,,,SPECIAL,Target variable only; never an input feature
+Src IP,NON_NUMERIC,100.0,0.0,0.0,,,REMOVE,Identifier/address field; not used as behavioural state feature
+Timestamp,NON_NUMERIC,100.0,0.0,0.0,,,SPECIAL,Used for chronological ordering and window construction
+ACK Flag Cnt,USABLE,0.0,0.0,66.83976748743248,0.0,1.0,CANDIDATE,Candidate traffic-behaviour feature
+Active Max,USABLE,0.0,0.0,89.97496385279577,0.0,114000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Active Mean,USABLE,0.0,0.0,89.97496385279577,0.0,114000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Active Min,USABLE,0.0,0.0,89.97496385279577,0.0,114000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Active Std,USABLE,0.0,0.0,93.06620511923632,0.0,75232413.85230836,CANDIDATE,Candidate traffic-behaviour feature
+Bwd Header Len,USABLE,0.0,0.0,25.556349072924544,0.0,2462372.0,CANDIDATE,Candidate traffic-behaviour feature
+Bwd IAT Max,USABLE,0.0,0.0,57.52313707526226,0.0,120000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Bwd IAT Mean,USABLE,0.0,0.0,57.52313707526226,0.0,120000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Bwd IAT Min,USABLE,0.0,0.0,61.29930710594496,0.0,120000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Bwd IAT Std,USABLE,0.0,0.0,64.58705018669151,0.0,84837189.5109486,CANDIDATE,Candidate traffic-behaviour feature
+Bwd IAT Tot,USABLE,0.0,0.0,57.52313707526226,0.0,120000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Bwd Pkt Len Max,USABLE,0.0,0.0,37.006574722282096,0.0,65160.0,CANDIDATE,Candidate traffic-behaviour feature
+Bwd Pkt Len Mean,USABLE,0.0,0.0,37.006574722282096,0.0,33879.28358,CANDIDATE,Candidate traffic-behaviour feature
+Bwd Pkt Len Min,USABLE,0.0,0.0,74.04651988559797,0.0,1460.0,CANDIDATE,Candidate traffic-behaviour feature
+Bwd Pkt Len Std,USABLE,0.0,0.0,62.75625304589209,0.0,22448.41352658228,CANDIDATE,Candidate traffic-behaviour feature
+Bwd Pkts/s,USABLE,0.0,0.0,25.497136099098324,0.0,2000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Bwd Seg Size Avg,USABLE,0.0,0.0,37.006574722282096,0.0,33879.28358,CANDIDATE,Candidate traffic-behaviour feature
+Down/Up Ratio,USABLE,0.0,0.0,52.21891255730866,0.0,311.0,CANDIDATE,Candidate traffic-behaviour feature
+Dst Port,USABLE,0.0,0.0,1.4681453975434748,0.0,65535.0,CANDIDATE,Candidate traffic-behaviour feature
+ECE Flag Cnt,USABLE,0.0,0.0,81.26012255705672,0.0,1.0,CANDIDATE,Candidate traffic-behaviour feature
+Flow Duration,USABLE,0.0,0.0,0.5899120238867551,0.0,120000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Flow IAT Max,USABLE,0.0,0.0,0.5899120238867551,0.0,120000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Flow IAT Mean,USABLE,0.0,0.0,0.5899120238867551,0.0,120000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Flow IAT Min,USABLE,0.0,0.0,5.441765931459443,-2228.0,120000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Flow IAT Std,USABLE,0.0,0.0,48.231714683160384,0.0,84808080.04608749,CANDIDATE,Candidate traffic-behaviour feature
+Fwd Act Data Pkts,USABLE,0.0,0.0,53.44367612277489,0.0,309628.0,CANDIDATE,Candidate traffic-behaviour feature
+Fwd Header Len,USABLE,0.0,0.0,1.4679975499184406,0.0,2477032.0,CANDIDATE,Candidate traffic-behaviour feature
+Fwd IAT Max,USABLE,0.0,0.0,28.283102821431672,0.0,120000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Fwd IAT Mean,USABLE,0.0,0.0,28.283102821431672,0.0,120000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Fwd IAT Min,USABLE,0.0,0.0,29.10949096124304,-2171.0,120000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Fwd IAT Std,USABLE,0.0,0.0,54.172934533256445,0.0,84808080.04608749,CANDIDATE,Candidate traffic-behaviour feature
+Fwd IAT Tot,USABLE,0.0,0.0,28.283102821431672,0.0,120000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Fwd PSH Flags,USABLE,0.0,0.0,95.61045329527408,0.0,1.0,CANDIDATE,Candidate traffic-behaviour feature
+Fwd Pkt Len Max,USABLE,0.0,0.0,30.996229947164807,0.0,64440.0,CANDIDATE,Candidate traffic-behaviour feature
+Fwd Pkt Len Mean,USABLE,0.0,0.0,30.996229947164807,0.0,16529.3138401559,CANDIDATE,Candidate traffic-behaviour feature
+Fwd Pkt Len Min,USABLE,0.0,0.0,73.90198651149154,0.0,1460.0,CANDIDATE,Candidate traffic-behaviour feature
+Fwd Pkt Len Std,USABLE,0.0,0.0,56.90946470596896,0.0,18401.5827717299,CANDIDATE,Candidate traffic-behaviour feature
+Fwd Pkts/s,USABLE,0.0,0.0,0.5899120238867551,0.0,6000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Fwd Seg Size Avg,USABLE,0.0,0.0,30.996229947164807,0.0,16529.3138401559,CANDIDATE,Candidate traffic-behaviour feature
+Fwd Seg Size Min,USABLE,0.0,0.0,1.4679975499184406,0.0,56.0,CANDIDATE,Candidate traffic-behaviour feature
+Idle Max,USABLE,0.0,0.0,85.53918396365808,0.0,120000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Idle Mean,USABLE,0.0,0.0,85.53918396365808,0.0,120000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Idle Min,USABLE,0.0,0.0,85.53918396365808,0.0,120000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Idle Std,USABLE,0.0,0.0,92.06771002324966,0.0,76393949.17038548,CANDIDATE,Candidate traffic-behaviour feature
+Init Bwd Win Byts,USABLE,0.0,0.0,6.867737793961891,-1.0,65535.0,CANDIDATE,Candidate traffic-behaviour feature
+Init Fwd Win Byts,USABLE,0.0,0.0,0.4789215797099833,-1.0,65535.0,CANDIDATE,Candidate traffic-behaviour feature
+PSH Flag Cnt,USABLE,0.0,0.0,60.79154291871788,0.0,1.0,CANDIDATE,Candidate traffic-behaviour feature
+Pkt Len Max,USABLE,0.0,0.0,30.96322912519361,0.0,65160.0,CANDIDATE,Candidate traffic-behaviour feature
+Pkt Len Mean,USABLE,0.0,0.0,30.96322912519361,0.0,17344.98473,CANDIDATE,Candidate traffic-behaviour feature
+Pkt Len Min,USABLE,0.0,0.0,74.06879559443647,0.0,1460.0,CANDIDATE,Candidate traffic-behaviour feature
+Pkt Len Std,USABLE,0.0,0.0,31.71523758897732,0.0,22788.28621,CANDIDATE,Candidate traffic-behaviour feature
+Pkt Len Var,USABLE,0.0,0.0,31.71523758897732,0.0,519000000.0,CANDIDATE,Candidate traffic-behaviour feature
+Pkt Size Avg,USABLE,0.0,0.0,30.96322912519361,0.0,17478.40769,CANDIDATE,Candidate traffic-behaviour feature
+Protocol,USABLE,0.0,0.0,1.4679975499184406,0.0,17.0,CANDIDATE,Candidate traffic-behaviour feature
+RST Flag Cnt,USABLE,0.0,0.0,81.2601841602338,0.0,1.0,CANDIDATE,Candidate traffic-behaviour feature
+SYN Flag Cnt,USABLE,0.0,0.0,95.61045329527408,0.0,1.0,CANDIDATE,Candidate traffic-behaviour feature
+Src Port,USABLE,0.0,0.0,1.8132918542643448,0.0,65535.0,CANDIDATE,Candidate traffic-behaviour feature
+Subflow Bwd Byts,USABLE,0.0,0.0,37.006574722282096,0.0,156360426.0,CANDIDATE,Candidate traffic-behaviour feature
+Subflow Bwd Pkts,USABLE,0.0,0.0,25.487501362200256,0.0,123118.0,CANDIDATE,Candidate traffic-behaviour feature
+Subflow Fwd Byts,USABLE,0.0,0.0,30.996229947164807,0.0,144391846.0,CANDIDATE,Candidate traffic-behaviour feature
+Subflow Fwd Pkts,USABLE,0.0,0.0,0.0,1.0,309629.0,CANDIDATE,Candidate traffic-behaviour feature
+Tot Bwd Pkts,USABLE,0.0,0.0,25.487501362200256,0.0,123118.0,CANDIDATE,Candidate traffic-behaviour feature
+Tot Fwd Pkts,USABLE,0.0,0.0,0.0,1.0,309629.0,CANDIDATE,Candidate traffic-behaviour feature
+TotLen Bwd Pkts,USABLE,0.0,0.0,37.006574722282096,0.0,156360426.0,CANDIDATE,Candidate traffic-behaviour feature
+TotLen Fwd Pkts,USABLE,0.0,0.0,30.996229947164807,0.0,144391846.0,CANDIDATE,Candidate traffic-behaviour feature
+URG Flag Cnt,USABLE,0.0,0.0,95.82869487077778,0.0,1.0,CANDIDATE,Candidate traffic-behaviour feature

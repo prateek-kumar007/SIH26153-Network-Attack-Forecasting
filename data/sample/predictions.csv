@@ -1,0 +1,6 @@
+horizon,probability,probability_percent,threshold,predicted_attack,risk
++30s,0.46213,46.21,0.44,1,MEDIUM
++60s,0.426799,42.68,0.48,0,MEDIUM
++90s,0.421846,42.18,0.45,0,MEDIUM
++120s,0.471347,47.13,0.51,0,MEDIUM
++150s,0.539234,53.92,0.53,1,MEDIUM

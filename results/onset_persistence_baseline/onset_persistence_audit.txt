@@ -1,0 +1,22 @@
+SIH26153 ONSET + PERSISTENCE BASELINE AUDIT
+======================================================================
+
+Purpose:
+Measure how much of the forecasting task is explained by
+attack persistence and quantify genuine benign-to-attack
+onset events.
+
+Input rows: 9,283
+Valid 5-horizon rows: 9,198
+Total contiguous segments: 22
+
+IMPORTANT INTERPRETATION:
+- Persistence is a continuation baseline, not a genuine
+  pre-attack forecasting model.
+- A persistence model predicts 0 while the current state
+  is benign, so it cannot forecast a future 0→1 onset.
+- Very high persistence scores therefore do not demonstrate
+  early-warning capability.
+- Genuine SIH forecasting value should be demonstrated by
+  improving detection of future attack onset while controlling
+  false positives.
