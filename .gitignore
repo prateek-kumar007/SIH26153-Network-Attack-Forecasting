@@ -54,6 +54,26 @@ data/processed/
 *.pt
 *.pth
 
+# Large ML model files
+*.h5
+*.keras
+*.ckpt
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+*.pt
+*.pth
+
+# Generated prediction datasets
+results/**/logistic_predictions.csv
+results/**/persistence_predictions.csv
+results/**/persistence_predictions_v2.csv
+results/**/test_predictions.csv
+results/**/forecasting_samples_with_attack_mapping.csv
+results/**/forecasting_target_audit_joined.csv
+results/**/target_analysis_samples.csv
+
 # TensorFlow
 checkpoint/
 checkpoints/
